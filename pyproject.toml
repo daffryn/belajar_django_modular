@@ -17,6 +17,7 @@ requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
 [tool.pdm.scripts]
+startvenv = "source .venv/bin/activate"
 dev = "pdm run src/manage.py runserver"
 
 
